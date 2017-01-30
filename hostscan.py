@@ -1,9 +1,7 @@
 from scapy.all import * 
 import sys
-import netifaces
 
-Gw = netifaces.gateways()["default"][2]
-print(Gw)
+
 
 conf.verb = 0
 
